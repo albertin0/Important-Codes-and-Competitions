@@ -1,3 +1,10 @@
+# Input a 2D array of numbers and print the zig-zag pattern of it.
+# Ex:
+# [1,4,5],
+# [3,7,9]
+#
+# sol = [1,3,4,5,7,9]
+
 def zigzag(a):
     row = len(a)
     col = len(a[0])
